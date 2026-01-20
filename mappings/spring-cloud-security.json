@@ -1,0 +1,31 @@
+{
+  "slug" : "spring-cloud-security",
+  "coordinates" : [
+    "org.springframework.cloud:spring-cloud-security-parent",
+    "org.springframework.cloud:spring-cloud-security-dependencies",
+    "org.springframework.cloud:spring-cloud-security",
+    "org.springframework.cloud:spring-cloud-starter-oauth2",
+    "org.springframework.cloud:spring-cloud-starter-security",
+    "org.springframework.cloud:spring-cloud-security-docs"
+  ],
+  "repositoryUrl" : "https://github.com/spring-attic/spring-cloud-security",
+  "rewrite" : {
+    "1.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 7
+        },
+        "supportedGenerations" : {
+          "spring-cloud-commons" : "1.1.x",
+          "spring-security-oauth" : "2.0.x",
+          "spring-security-jwt" : "1.0.x",
+          "spring-cloud-netflix" : "1.1.x",
+          "spring-boot" : "1.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}
